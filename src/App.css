@@ -8,6 +8,7 @@
   font-family: 'Courier New', Courier, monospace;
 }
 
+
 .App h1{
   padding: 20px 0;
 }
@@ -42,4 +43,12 @@ form{
 }
 .complete-btn{
   margin: 0 10px;
+}
+
+
+@media (max-width:600px) {
+  .App{
+    width: 90%;
+    margin: 0 auto;
+  }
 }
